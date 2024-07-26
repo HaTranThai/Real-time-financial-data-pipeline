@@ -2,7 +2,6 @@ import json
 from kafka import KafkaProducer
 import finnhub
 from datetime import datetime
-from data_generator import generate_message
 import time
 
 def serializer(message):

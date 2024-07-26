@@ -1,0 +1,20 @@
+[2024-07-26T16:29:44.451+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-26T16:29:44.604+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finnhub_kafka.stream_data_from_api manual__2024-07-26T16:29:42.288841+00:00 [queued]>
+[2024-07-26T16:29:44.619+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finnhub_kafka.stream_data_from_api manual__2024-07-26T16:29:42.288841+00:00 [queued]>
+[2024-07-26T16:29:44.620+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-07-26T16:29:44.644+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2024-07-26 16:29:42.288841+00:00
+[2024-07-26T16:29:44.655+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finnhub_kafka', 'stream_data_from_api', 'manual__2024-07-26T16:29:42.288841+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/topic.py', '--cfg-path', '/tmp/tmp35ky5uet']
+[2024-07-26T16:29:44.657+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=606) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-07-26T16:29:44.659+0000] {standard_task_runner.py:91} INFO - Job 39: Subtask stream_data_from_api
+[2024-07-26T16:29:44.659+0000] {standard_task_runner.py:64} INFO - Started process 607 to run task
+[2024-07-26T16:29:44.699+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-07-26T16:29:44.764+0000] {task_command.py:426} INFO - Running <TaskInstance: finnhub_kafka.stream_data_from_api manual__2024-07-26T16:29:42.288841+00:00 [running]> on host 58d89cf8ae8c
+[2024-07-26T16:29:44.968+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finnhub_kafka' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2024-07-26T16:29:42.288841+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-26T16:29:42.288841+00:00'
+[2024-07-26T16:29:44.970+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-26T16:29:46.261+0000] {logging_mixin.py:188} INFO - {'symbol': 'AAPL', 'data': {'c': 218.8, 'd': 1.31, 'dp': 0.6023, 'h': 219.3, 'l': 216.01, 'o': 219.3, 'pc': 217.49, 't': 1722011350}, 'timestamp': '2024-07-26T16:29:46.261778'}
+[2024-07-26T16:29:46.298+0000] {logging_mixin.py:188} INFO - Message được gửi tới topic_finnhub [Partition: 0]
+[2024-07-26T16:29:46.301+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-07-26T16:29:46.302+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-26T16:29:46.324+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finnhub_kafka, task_id=stream_data_from_api, run_id=manual__2024-07-26T16:29:42.288841+00:00, execution_date=20240726T162942, start_date=20240726T162944, end_date=20240726T162946
+[2024-07-26T16:29:46.374+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-07-26T16:29:46.395+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
