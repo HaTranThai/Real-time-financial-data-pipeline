@@ -61,7 +61,7 @@ default_args = {
 # Tạo DAG
 with DAG('finnhub_kafka',
          default_args=default_args,
-         schedule_interval='* * * * *',
+         schedule_interval='@once',
          catchup=False) as dag:
 
     streaming_task = PythonOperator(
