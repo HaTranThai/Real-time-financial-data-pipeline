@@ -5,7 +5,6 @@ from datetime import datetime
 from kafka import KafkaProducer
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-import logging
 from confluent_kafka import Producer
 
 # Cấu hình các tham số cho Kafka
@@ -22,6 +21,29 @@ def configure_kafka(servers=KAFKA_BOOTSTRAP_SERVERS):
     }
     return Producer(settings)
 
+
+# Hàm lấy dữ liệu từ Finnhub
+def get_data():
+    finnhub_client = finnhub.Client(api_key="cqchq4pr01qoodgbgkbgcqchq4pr01qoodgbgkc0")
+    quote_data = finnhub_client.quote('AAPL')
+    return quote_data
+
+# Hàm format dữ liệu
+def format_data(ti):
+    quote_data = ti.xcom_pull(task_ids='get_data')
+    message = {
+        'symbol': 'AAPL',
+        'date_time': datetime.fromtimestamp(quote_data['t']).strftime('%d/%m/%Y, %H:%M:%S'),
+        'open': quote_data['o'],
+        'high': quote_data['h'],
+        'low': quote_data['l'],
+        'current_price': quote_data['c'],
+        'previous_close': quote_data['pc'],
+        'change_percent': quote_data['dp']
+    }
+    return message
+
+
 # Hàm kiểm tra trạng thái gửi message
 def delivery_status(err, msg):
     if err is not None:
@@ -29,28 +51,17 @@ def delivery_status(err, msg):
     else:
         print('Message được gửi tới', msg.topic(), '[Partition: {}]'.format(msg.partition()))
 
+
 # Hàm gửi message tới Kafka
-def publish_to_kafka(producer, topic, data):
-    producer.produce(topic, value=json.dumps(data).encode('utf-8'), callback=delivery_status)
-    producer.flush()
-
-# Hàm lấy dữ liệu từ API và gửi tới Kafka
-def stream_data():
-    finnhub_client = finnhub.Client(api_key="cqchq4pr01qoodgbgkbgcqchq4pr01qoodgbgkc0")
-
-    quote_data = finnhub_client.quote('AAPL')
-
-    message = {
-        'symbol': 'AAPL',
-        'data': quote_data,
-        'timestamp': datetime.now().isoformat()
-    }
-
-    print(message)
-    
+def stream_data(ti):
     producer = configure_kafka()
-
-    publish_to_kafka(producer, KAFKA_TOPIC, message)
+    formatted_data = ti.xcom_pull(task_ids='format_data')
+    message = json.dumps(formatted_data).encode('utf-8')
+    try:
+        producer.produce(KAFKA_TOPIC, message, callback=delivery_status)
+        producer.flush()
+    except Exception as e:
+        print(f"Lỗi : {e}")
 
 # Cấu hình DAG
 default_args = {
@@ -58,17 +69,32 @@ default_args = {
     'start_date': datetime(2024, 1, 1, 10, 00)
 }
 
-# Tạo DAG
-with DAG('finnhub_kafka',
-         default_args=default_args,
-         schedule_interval='@once',
-         catchup=False) as dag:
+dag = DAG(
+    'finnhub_data_streaming',
+    default_args=default_args,
+    description='DAG for streaming data from Finnhub to Kafka',
+    schedule_interval='@once',
+)
 
-    streaming_task = PythonOperator(
-        task_id='stream_data_from_api',
-        python_callable=stream_data
-    )
+# Tạo task
+get_data_task = PythonOperator(
+    task_id='get_data',
+    python_callable=get_data,
+    dag=dag
+)
+
+format_data_task = PythonOperator(
+    task_id='format_data',
+    python_callable=format_data,
+    dag=dag
+)
+
+streaming_task = PythonOperator(
+    task_id='stream_data',
+    python_callable=stream_data,
+    dag=dag
+)
 
 # Kết nối các task trong DAG
-streaming_task
+get_data_task >> format_data_task >> streaming_task
 

@@ -1,0 +1,293 @@
+[2024-08-01T08:26:45.267+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:26:45.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:26:45.269+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:26:45.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:26:45.371+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:26:45.396+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:26:45.396+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:26:45.414+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:26:45.414+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:00:00+00:00, run_after=2024-01-01 10:00:00+00:00
+[2024-08-01T08:26:45.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.169 seconds
+[2024-08-01T08:27:00.375+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:27:00.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:27:00.377+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:00.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:00.491+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:00.500+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:00.500+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:27:00.518+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:00.517+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:00:00+00:00, run_after=2024-01-01 10:00:00+00:00
+[2024-08-01T08:27:00.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.165 seconds
+[2024-08-01T08:27:19.592+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:27:19.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:27:19.594+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:19.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:19.715+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:19.809+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:19.809+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:27:19.826+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:19.826+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:00:00+00:00, run_after=2024-01-01 10:00:00+00:00
+[2024-08-01T08:27:19.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.255 seconds
+[2024-08-01T08:27:49.976+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:27:49.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:27:49.978+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:49.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:50.086+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:27:50.111+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:50.111+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:27:50.132+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:27:50.131+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:00:00+00:00, run_after=2024-01-01 10:00:00+00:00
+[2024-08-01T08:27:50.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.178 seconds
+[2024-08-01T08:28:20.277+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:28:20.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:28:20.278+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:20.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:28:20.388+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:28:20.412+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:20.412+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:28:20.428+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:20.428+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:28:20.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.170 seconds
+[2024-08-01T08:28:50.574+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:28:50.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:28:50.575+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:50.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:28:50.684+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:28:50.709+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:50.709+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:28:50.727+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:28:50.726+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:28:50.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.175 seconds
+[2024-08-01T08:29:20.871+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:29:20.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:29:20.872+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:20.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:29:20.976+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:29:20.998+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:20.998+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:29:21.016+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:21.016+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:29:21.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.165 seconds
+[2024-08-01T08:29:51.162+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:29:51.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:29:51.163+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:51.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:29:51.267+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:29:51.290+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:51.289+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:29:51.307+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:29:51.306+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:29:51.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.167 seconds
+[2024-08-01T08:30:21.453+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:30:21.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:30:21.455+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:21.455+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:30:21.550+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:30:21.572+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:21.572+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:30:21.590+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:21.590+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:30:21.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.158 seconds
+[2024-08-01T08:30:51.732+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:30:51.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:30:51.734+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:51.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:30:51.837+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:30:51.861+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:51.861+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:30:51.880+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:30:51.880+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:30:51.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.166 seconds
+[2024-08-01T08:31:03.799+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:31:03.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:31:03.800+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:03.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:31:03.916+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:31:04.019+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:04.018+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:31:04.036+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:04.036+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:00:00+00:00, run_after=2024-01-01 10:01:00+00:00
+[2024-08-01T08:31:04.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.265 seconds
+[2024-08-01T08:31:34.191+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:31:34.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:31:34.193+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:34.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:31:34.296+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:31:34.319+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:34.318+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:31:34.336+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:31:34.336+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:31:34.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.164 seconds
+[2024-08-01T08:32:04.475+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:32:04.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:32:04.477+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:04.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:32:04.583+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:32:04.607+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:04.607+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:32:04.627+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:04.627+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:32:04.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.172 seconds
+[2024-08-01T08:32:34.781+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:32:34.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:32:34.782+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:34.782+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:32:34.887+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:32:34.913+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:34.913+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:32:34.936+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:32:34.936+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:32:34.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.179 seconds
+[2024-08-01T08:33:05.082+0000] {processor.py:161} INFO - Started process (PID=418) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:33:05.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:33:05.083+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:05.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:33:05.178+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:33:05.201+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:05.201+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:33:05.218+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:05.218+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:33:05.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.156 seconds
+[2024-08-01T08:33:35.360+0000] {processor.py:161} INFO - Started process (PID=423) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:33:35.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:33:35.362+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:35.362+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:33:35.461+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:33:35.482+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:35.482+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:33:35.500+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:33:35.500+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:33:35.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.159 seconds
+[2024-08-01T08:34:05.639+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:34:05.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:34:05.640+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:05.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:34:05.740+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:34:05.762+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:05.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:34:05.780+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:05.780+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:34:05.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.160 seconds
+[2024-08-01T08:34:35.921+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:34:35.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:34:35.922+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:35.922+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:34:36.018+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:34:36.040+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:36.039+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:34:36.058+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:34:36.058+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:34:36.073+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.156 seconds
+[2024-08-01T08:35:06.200+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:35:06.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:35:06.201+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:06.201+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:35:06.304+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:35:06.326+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:06.326+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:35:06.344+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:06.344+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:35:06.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.164 seconds
+[2024-08-01T08:35:36.484+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:35:36.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:35:36.486+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:36.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:35:36.598+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:35:36.623+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:36.623+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:35:36.644+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:35:36.644+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:35:36.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.182 seconds
+[2024-08-01T08:36:06.790+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:36:06.790+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:36:06.791+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:06.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:06.888+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:06.909+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:06.909+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:36:06.926+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:06.926+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:36:06.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.155 seconds
+[2024-08-01T08:36:12.829+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:36:12.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:36:12.830+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:12.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:12.934+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:12.956+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:12.956+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:36:12.974+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:12.974+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:36:12.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.168 seconds
+[2024-08-01T08:36:43.111+0000] {processor.py:161} INFO - Started process (PID=458) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:36:43.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:36:43.113+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:43.112+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:43.217+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:36:43.239+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:43.239+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:36:43.258+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:36:43.258+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:36:43.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.165 seconds
+[2024-08-01T08:37:13.412+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:37:13.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:37:13.414+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:13.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:37:13.513+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:37:13.535+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:13.535+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:37:13.555+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:13.554+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:37:13.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.163 seconds
+[2024-08-01T08:37:36.516+0000] {processor.py:161} INFO - Started process (PID=468) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:37:36.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:37:36.517+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:36.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:37:36.620+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:37:36.644+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:36.643+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:37:36.663+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:37:36.663+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 10:30:00+00:00, run_after=2024-01-01 10:31:00+00:00
+[2024-08-01T08:37:36.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.170 seconds
+[2024-08-01T08:38:06.822+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:38:06.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:38:06.824+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:06.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:06.979+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:07.008+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:07.007+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:38:07.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.238 seconds
+[2024-08-01T08:38:27.925+0000] {processor.py:161} INFO - Started process (PID=1135) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:38:27.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:38:27.926+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:27.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:28.049+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:28.074+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:28.073+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:38:28.096+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:28.096+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 11:57:00+00:00, run_after=2024-01-01 11:58:00+00:00
+[2024-08-01T08:38:28.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.198 seconds
+[2024-08-01T08:38:58.256+0000] {processor.py:161} INFO - Started process (PID=1160) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:38:58.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:38:58.258+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:58.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:58.368+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:38:58.390+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:58.390+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:38:58.410+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:38:58.409+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:38:58.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.177 seconds
+[2024-08-01T08:39:28.558+0000] {processor.py:161} INFO - Started process (PID=1165) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:39:28.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:39:28.560+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:28.560+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:39:28.656+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:39:28.678+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:28.678+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:39:28.696+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:28.696+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:39:28.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.157 seconds
+[2024-08-01T08:39:58.838+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:39:58.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:39:58.839+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:58.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:39:58.936+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:39:58.958+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:58.958+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:39:58.977+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:39:58.977+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:39:58.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.157 seconds
+[2024-08-01T08:40:16.924+0000] {processor.py:161} INFO - Started process (PID=1175) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:40:16.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:40:16.925+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:16.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:17.029+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:17.052+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:17.051+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:40:17.068+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:17.068+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:40:17.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.166 seconds
+[2024-08-01T08:40:47.211+0000] {processor.py:161} INFO - Started process (PID=1180) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:40:47.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:40:47.212+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:47.212+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:47.309+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:47.330+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:47.329+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:40:47.347+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:47.347+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:40:47.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.156 seconds
+[2024-08-01T08:40:48.228+0000] {processor.py:161} INFO - Started process (PID=1185) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:40:48.228+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:40:48.229+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:48.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:48.361+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:40:48.385+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:48.385+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:40:48.404+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:40:48.404+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:40:48.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.202 seconds
+[2024-08-01T08:41:18.517+0000] {processor.py:161} INFO - Started process (PID=1190) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:41:18.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:41:18.519+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:18.519+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:41:18.616+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:41:18.637+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:18.637+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:41:18.654+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:18.653+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:41:18.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.155 seconds
+[2024-08-01T08:41:34.625+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:41:34.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:41:34.627+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:34.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:41:34.732+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:41:34.754+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:34.753+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:41:34.772+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:41:34.771+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:41:34.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.168 seconds
+[2024-08-01T08:42:03.885+0000] {processor.py:161} INFO - Started process (PID=1200) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:42:03.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:42:03.886+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:03.886+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:42:03.992+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:42:04.014+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:04.014+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:42:04.033+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:04.033+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:07:00+00:00, run_after=2024-01-01 12:08:00+00:00
+[2024-08-01T08:42:04.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.171 seconds
+[2024-08-01T08:42:34.190+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:42:34.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:42:34.191+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:34.191+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:42:34.313+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:42:34.338+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:34.337+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:42:34.360+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:42:34.360+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:35:00+00:00, run_after=2024-01-01 12:36:00+00:00
+[2024-08-01T08:42:34.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.198 seconds
+[2024-08-01T08:43:04.514+0000] {processor.py:161} INFO - Started process (PID=1376) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:43:04.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:43:04.515+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:04.515+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:04.614+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:04.637+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:04.636+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:43:04.654+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:04.654+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to 2024-01-01 12:35:00+00:00, run_after=2024-01-01 12:36:00+00:00
+[2024-08-01T08:43:04.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.159 seconds
+[2024-08-01T08:43:12.558+0000] {processor.py:161} INFO - Started process (PID=1381) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:43:12.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:43:12.559+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:12.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:12.663+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:12.762+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:12.761+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:43:12.779+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:12.779+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:43:12.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.246 seconds
+[2024-08-01T08:43:42.849+0000] {processor.py:161} INFO - Started process (PID=1472) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:43:42.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:43:42.850+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:42.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:42.954+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:43:42.980+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:42.979+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:43:42.999+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:43:42.998+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:43:43.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.175 seconds
+[2024-08-01T08:44:13.060+0000] {processor.py:161} INFO - Started process (PID=1477) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:44:13.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:44:13.061+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:13.061+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:44:13.163+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:44:13.185+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:13.185+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:44:13.201+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:13.201+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:44:13.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.160 seconds
+[2024-08-01T08:44:16.167+0000] {processor.py:161} INFO - Started process (PID=1482) to work on /opt/airflow/dags/topic.py
+[2024-08-01T08:44:16.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/topic.py for tasks to queue
+[2024-08-01T08:44:16.168+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:16.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/topic.py
+[2024-08-01T08:44:16.282+0000] {processor.py:840} INFO - DAG(s) 'finnhub_data_streaming' retrieved from /opt/airflow/dags/topic.py
+[2024-08-01T08:44:16.305+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:16.304+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-01T08:44:16.322+0000] {logging_mixin.py:188} INFO - [2024-08-01T08:44:16.322+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_data_streaming to None, run_after=None
+[2024-08-01T08:44:16.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/topic.py took 0.177 seconds

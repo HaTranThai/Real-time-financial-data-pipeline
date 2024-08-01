@@ -1,0 +1,37 @@
+[2024-08-01T08:31:16.343+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-01T08:31:16.382+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finnhub_data_streaming.format_data scheduled__2024-01-01T10:20:00+00:00 [queued]>
+[2024-08-01T08:31:16.392+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finnhub_data_streaming.format_data scheduled__2024-01-01T10:20:00+00:00 [queued]>
+[2024-08-01T08:31:16.393+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-01T08:31:16.409+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): format_data> on 2024-01-01 10:20:00+00:00
+[2024-08-01T08:31:16.416+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finnhub_data_streaming', 'format_data', 'scheduled__2024-01-01T10:20:00+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/topic.py', '--cfg-path', '/tmp/tmpnwwsdmee']
+[2024-08-01T08:31:16.417+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=399) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-01T08:31:16.418+0000] {standard_task_runner.py:91} INFO - Job 56: Subtask format_data
+[2024-08-01T08:31:16.418+0000] {standard_task_runner.py:64} INFO - Started process 401 to run task
+[2024-08-01T08:31:16.431+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-01T08:31:16.464+0000] {task_command.py:426} INFO - Running <TaskInstance: finnhub_data_streaming.format_data scheduled__2024-01-01T10:20:00+00:00 [running]> on host 0baaf0b4c9a1
+[2024-08-01T08:31:16.544+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finnhub_data_streaming' AIRFLOW_CTX_TASK_ID='format_data' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T10:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T10:20:00+00:00'
+[2024-08-01T08:31:16.545+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-01T08:31:16.556+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-01T08:31:16.557+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: format_data() missing 1 required positional argument: 'data'
+[2024-08-01T08:31:16.568+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=finnhub_data_streaming, task_id=format_data, run_id=scheduled__2024-01-01T10:20:00+00:00, execution_date=20240101T102000, start_date=20240801T083116, end_date=20240801T083116
+[2024-08-01T08:31:16.582+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 56 for task format_data (format_data() missing 1 required positional argument: 'data'; 401)
+[2024-08-01T08:31:16.592+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-08-01T08:31:16.615+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-01T08:31:16.619+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
