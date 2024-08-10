@@ -1,0 +1,28 @@
+[2024-08-09T08:42:19.941+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-09T08:42:20.021+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data_today.send_data manual__2024-08-09T08:42:08.130144+00:00 [queued]>
+[2024-08-09T08:42:20.037+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data_today.send_data manual__2024-08-09T08:42:08.130144+00:00 [queued]>
+[2024-08-09T08:42:20.052+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-09T08:42:20.079+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): send_data> on 2024-08-09 08:42:08.130144+00:00
+[2024-08-09T08:42:20.092+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=655) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-09T08:42:20.093+0000] {standard_task_runner.py:64} INFO - Started process 657 to run task
+[2024-08-09T08:42:20.091+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data_today', 'send_data', 'manual__2024-08-09T08:42:08.130144+00:00', '--job-id', '169', '--raw', '--subdir', 'DAGS_FOLDER/stream_today.py', '--cfg-path', '/tmp/tmp6wrcp045']
+[2024-08-09T08:42:20.095+0000] {standard_task_runner.py:91} INFO - Job 169: Subtask send_data
+[2024-08-09T08:42:20.124+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-09T08:42:20.197+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data_today.send_data manual__2024-08-09T08:42:08.130144+00:00 [running]> on host 562e157be0a0
+[2024-08-09T08:42:20.391+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data_today' AIRFLOW_CTX_TASK_ID='send_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-09T08:42:08.130144+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-09T08:42:08.130144+00:00'
+[2024-08-09T08:42:20.393+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-09T08:42:21.428+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.429+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.430+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.430+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.431+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.432+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.432+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.433+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.433+0000] {logging_mixin.py:188} INFO - Delivered message to stock_data [0]
+[2024-08-09T08:42:21.435+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-09T08:42:21.435+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-09T08:42:21.460+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data_today, task_id=send_data, run_id=manual__2024-08-09T08:42:08.130144+00:00, execution_date=20240809T084208, start_date=20240809T084220, end_date=20240809T084221
+[2024-08-09T08:42:21.530+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-09T08:42:21.617+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-09T08:42:21.624+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

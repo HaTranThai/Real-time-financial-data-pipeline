@@ -1,28 +1,11 @@
-import json
-from kafka import KafkaProducer
-import finnhub
-from datetime import datetime
-import time
+import yfinance as yf
+from datetime import datetime, timedelta
 
-def serializer(message):
-    return json.dumps(message).encode('utf-8')
+# Lấy ngày hôm nay
+today = datetime.today().strftime('%Y-%m-%d')
 
-producer = KafkaProducer(
-    bootstrap_servers=['localhost:9092'],
-    value_serializer=serializer
-)
+# Tải dữ liệu từ ngày 2024-08-01 đến ngày hôm trước
+data = yf.download('AAPL', start=today, end=today, interval='1d')
 
-finnhub_client = finnhub.Client(api_key="cqchq4pr01qoodgbgkbgcqchq4pr01qoodgbgkc0")
-
-quote_data = finnhub_client.quote('AAPL')
-
-message = {
-    'symbol': 'AAPL',
-    'data': quote_data,
-    'timestamp': datetime.utcnow().isoformat()
-}
-
-producer.send('finnhub', message)
-producer.flush()
-
-print("Message sent:", message)
+# In dữ liệu
+print(data)

@@ -1,0 +1,59 @@
+[2024-08-10T14:12:08.757+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-10T14:12:08.890+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-10T14:12:06.364508+00:00 [queued]>
+[2024-08-10T14:12:08.922+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-10T14:12:06.364508+00:00 [queued]>
+[2024-08-10T14:12:08.932+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-10T14:12:08.984+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-08-10 14:12:06.364508+00:00
+[2024-08-10T14:12:09.006+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1117) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-10T14:12:09.008+0000] {standard_task_runner.py:64} INFO - Started process 1119 to run task
+[2024-08-10T14:12:09.004+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data_today', 'get_data', 'manual__2024-08-10T14:12:06.364508+00:00', '--job-id', '189', '--raw', '--subdir', 'DAGS_FOLDER/stream_today.py', '--cfg-path', '/tmp/tmp1juh4nxo']
+[2024-08-10T14:12:09.012+0000] {standard_task_runner.py:91} INFO - Job 189: Subtask get_data
+[2024-08-10T14:12:09.058+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-10T14:12:09.172+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data_today.get_data manual__2024-08-10T14:12:06.364508+00:00 [running]> on host 562e157be0a0
+[2024-08-10T14:12:09.507+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data_today' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T14:12:06.364508+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-10T14:12:06.364508+00:00'
+[2024-08-10T14:12:09.510+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-10T14:12:10.225+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:10.399+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:10.583+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:10.772+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:10.914+0000] {logging_mixin.py:188} INFO - $TPE: possibly delisted; No price data found  (1d 2024-08-10 -> 2024-08-10)
+[2024-08-10T14:12:10.918+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:10.919+0000] {multi.py:171} ERROR - 
+1 Failed download:
+[2024-08-10T14:12:10.920+0000] {multi.py:184} ERROR - ['TPE']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2024-08-10 -> 2024-08-10)')
+[2024-08-10T14:12:11.085+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:11.294+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:11.456+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:11.640+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:11.797+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:12:11.920+0000] {python.py:237} INFO - Done. Returned value was: [                  Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-09  212.080002  216.779999  ...  216.240005  41126391
+
+[1 rows x 6 columns],                   Open   High         Low       Close   Adj Close    Volume
+Date                                                                       
+2024-08-09  134.595001  135.5  132.440002  134.270004  134.270004  40389800,                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-09  166.399994  168.550003  ...  166.940002  35717601
+
+[1 rows x 6 columns],              Open        High         Low       Close   Adj Close   Volume
+Date                                                                      
+2024-08-09  164.0  165.889999  161.979996  164.479996  164.479996  4807773, Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume]
+Index: [],                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-09  160.009995  163.789993  ...  163.669998  28574386
+
+[1 rows x 6 columns],                  Open   High   Low      Close  Adj Close    Volume
+Date                                                              
+2024-08-09  20.084999  20.15  19.5  19.709999  19.709999  75745642,                  Open        High        Low      Close  Adj Close    Volume
+Date                                                                        
+2024-08-09  507.73999  518.340027  505.73999  517.77002  517.77002  13669098,               Open        High         Low   Close  Adj Close     Volume
+Date                                                                    
+2024-08-09  105.57  106.599998  103.440002  104.75     104.75  287948783,                  Open        High        Low       Close   Adj Close   Volume
+Date                                                                         
+2024-08-09  622.98999  636.554993  622.98999  633.940002  633.940002  1978396]
+[2024-08-10T14:12:12.151+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-10T14:12:12.252+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data_today, task_id=get_data, run_id=manual__2024-08-10T14:12:06.364508+00:00, execution_date=20240810T141206, start_date=20240810T141208, end_date=20240810T141212
+[2024-08-10T14:12:12.321+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-10T14:12:12.391+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-10T14:12:12.395+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

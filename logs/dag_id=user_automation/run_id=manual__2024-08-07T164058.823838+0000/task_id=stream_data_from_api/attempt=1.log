@@ -1,0 +1,111 @@
+[2024-08-07T16:40:59.961+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-07T16:41:00.030+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_automation.stream_data_from_api manual__2024-08-07T16:40:58.823838+00:00 [queued]>
+[2024-08-07T16:41:00.044+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_automation.stream_data_from_api manual__2024-08-07T16:40:58.823838+00:00 [queued]>
+[2024-08-07T16:41:00.045+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-07T16:41:00.069+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): stream_data_from_api> on 2024-08-07 16:40:58.823838+00:00
+[2024-08-07T16:41:00.079+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1287) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-07T16:41:00.078+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'user_automation', 'stream_data_from_api', 'manual__2024-08-07T16:40:58.823838+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/kafka_stream.py', '--cfg-path', '/tmp/tmptbgxfl68']
+[2024-08-07T16:41:00.081+0000] {standard_task_runner.py:64} INFO - Started process 1288 to run task
+[2024-08-07T16:41:00.082+0000] {standard_task_runner.py:91} INFO - Job 20: Subtask stream_data_from_api
+[2024-08-07T16:41:00.112+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-07T16:41:00.173+0000] {task_command.py:426} INFO - Running <TaskInstance: user_automation.stream_data_from_api manual__2024-08-07T16:40:58.823838+00:00 [running]> on host 1c8fec21bc35
+[2024-08-07T16:41:00.321+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airscholar' AIRFLOW_CTX_DAG_ID='user_automation' AIRFLOW_CTX_TASK_ID='stream_data_from_api' AIRFLOW_CTX_EXECUTION_DATE='2024-08-07T16:40:58.823838+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-07T16:40:58.823838+00:00'
+[2024-08-07T16:41:00.322+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-07T16:41:01.365+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:02.004+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:02.619+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:04.166+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:04.815+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:05.463+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:06.004+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:06.509+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:07.068+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:07.553+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:08.253+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:08.869+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:09.624+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:10.199+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:10.739+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:11.247+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:11.825+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:12.407+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:12.965+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:13.697+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:14.199+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:14.735+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:15.321+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:15.917+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:16.401+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:17.524+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:18.030+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:18.565+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:19.065+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:19.695+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:20.312+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:21.064+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:21.629+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:22.491+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:23.106+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:23.753+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:24.317+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:25.448+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:26.310+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:26.890+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:27.363+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:27.945+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:28.505+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:29.097+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:29.703+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:30.265+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:30.832+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:31.404+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:32.029+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:32.613+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:33.521+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:34.120+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:34.692+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:35.295+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:35.926+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:36.477+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:37.020+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:37.596+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:38.143+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:38.645+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:39.144+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:39.664+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:40.245+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:40.745+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:41.259+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:41.813+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:42.633+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:43.137+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:43.751+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:44.253+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:44.862+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:45.360+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:45.916+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:46.493+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:47.067+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:48.495+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:49.561+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:50.040+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:50.530+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:51.973+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:52.543+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:53.222+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:54.171+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:54.770+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:55.246+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:57.093+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:57.632+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:58.172+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:59.015+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:41:59.603+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:42:00.160+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:42:00.725+0000] {kafka_stream.py:55} INFO - Message sent to users_created partition 0
+[2024-08-07T16:42:00.726+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-07T16:42:00.727+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-07T16:42:00.745+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=user_automation, task_id=stream_data_from_api, run_id=manual__2024-08-07T16:40:58.823838+00:00, execution_date=20240807T164058, start_date=20240807T164100, end_date=20240807T164200
+[2024-08-07T16:42:00.788+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-07T16:42:00.821+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-07T16:42:00.826+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

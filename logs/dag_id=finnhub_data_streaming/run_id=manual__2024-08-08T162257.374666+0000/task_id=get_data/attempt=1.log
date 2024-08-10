@@ -1,0 +1,19 @@
+[2024-08-08T16:22:59.142+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-08T16:22:59.295+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finnhub_data_streaming.get_data manual__2024-08-08T16:22:57.374666+00:00 [queued]>
+[2024-08-08T16:22:59.325+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finnhub_data_streaming.get_data manual__2024-08-08T16:22:57.374666+00:00 [queued]>
+[2024-08-08T16:22:59.339+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-08-08T16:22:59.391+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-08-08 16:22:57.374666+00:00
+[2024-08-08T16:22:59.425+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'finnhub_data_streaming', 'get_data', 'manual__2024-08-08T16:22:57.374666+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/topic.py', '--cfg-path', '/tmp/tmpj665qduf']
+[2024-08-08T16:22:59.436+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=898) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-08T16:22:59.449+0000] {standard_task_runner.py:91} INFO - Job 86: Subtask get_data
+[2024-08-08T16:22:59.457+0000] {standard_task_runner.py:64} INFO - Started process 899 to run task
+[2024-08-08T16:22:59.530+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-08T16:22:59.853+0000] {task_command.py:426} INFO - Running <TaskInstance: finnhub_data_streaming.get_data manual__2024-08-08T16:22:57.374666+00:00 [running]> on host 552be2a98828
+[2024-08-08T16:23:00.340+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='finnhub_data_streaming' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-08T16:22:57.374666+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-08T16:22:57.374666+00:00'
+[2024-08-08T16:23:00.342+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-08T16:23:02.389+0000] {python.py:237} INFO - Done. Returned value was: {'c': 213.1596, 'd': 3.3396, 'dp': 1.5916, 'h': 213.21, 'l': 208.83, 'o': 209.55, 'pc': 209.82, 't': 1723134162}
+[2024-08-08T16:23:02.390+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-08T16:23:02.490+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=finnhub_data_streaming, task_id=get_data, run_id=manual__2024-08-08T16:22:57.374666+00:00, execution_date=20240808T162257, start_date=20240808T162259, end_date=20240808T162302
+[2024-08-08T16:23:02.541+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-08T16:23:02.601+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-08T16:23:02.605+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

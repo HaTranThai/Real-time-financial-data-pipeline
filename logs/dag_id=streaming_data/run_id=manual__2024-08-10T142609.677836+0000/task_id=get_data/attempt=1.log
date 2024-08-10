@@ -1,0 +1,112 @@
+[2024-08-10T14:26:11.533+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-10T14:26:11.575+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data.get_data manual__2024-08-10T14:26:09.677836+00:00 [queued]>
+[2024-08-10T14:26:11.584+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data.get_data manual__2024-08-10T14:26:09.677836+00:00 [queued]>
+[2024-08-10T14:26:11.586+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-10T14:26:11.604+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-08-10 14:26:09.677836+00:00
+[2024-08-10T14:26:11.617+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1531) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-10T14:26:11.620+0000] {standard_task_runner.py:64} INFO - Started process 1535 to run task
+[2024-08-10T14:26:11.617+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data', 'get_data', 'manual__2024-08-10T14:26:09.677836+00:00', '--job-id', '195', '--raw', '--subdir', 'DAGS_FOLDER/stream.py', '--cfg-path', '/tmp/tmpfzw4rdpi']
+[2024-08-10T14:26:11.622+0000] {standard_task_runner.py:91} INFO - Job 195: Subtask get_data
+[2024-08-10T14:26:11.642+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-10T14:26:11.693+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data.get_data manual__2024-08-10T14:26:09.677836+00:00 [running]> on host 562e157be0a0
+[2024-08-10T14:26:11.821+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T14:26:09.677836+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-10T14:26:09.677836+00:00'
+[2024-08-10T14:26:11.822+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-10T14:26:12.499+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:12.686+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:12.859+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.070+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.207+0000] {logging_mixin.py:188} INFO - $TPE: possibly delisted; No price data found  (1d 2024-08-01 -> 2024-08-09)
+[2024-08-10T14:26:13.213+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.214+0000] {multi.py:171} ERROR - 
+1 Failed download:
+[2024-08-10T14:26:13.215+0000] {multi.py:184} ERROR - ['TPE']: YFPricesMissingError('$%ticker%: possibly delisted; No price data found  (1d 2024-08-01 -> 2024-08-09)')
+[2024-08-10T14:26:13.411+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.622+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.741+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:13.899+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:14.059+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-10T14:26:14.161+0000] {python.py:237} INFO - Done. Returned value was: [                  Open        High  ...   Adj Close     Volume
+Date                                ...                       
+2024-08-01  224.369995  224.479996  ...  218.360001   62501000
+2024-08-02  219.149994  225.600006  ...  219.860001  105568600
+2024-08-05  199.089996  213.500000  ...  209.270004  119548600
+2024-08-06  205.300003  209.990005  ...  207.229996   69660500
+2024-08-07  206.899994  213.639999  ...  209.820007   63516400
+2024-08-08  213.110001  214.199997  ...  213.309998   47161100
+
+[6 rows x 6 columns],                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-01  145.000000  147.289993  ...  132.539993  94731900
+2024-08-02  133.500000  137.100006  ...  132.500000  78562000
+2024-08-05  122.160004  139.139999  ...  134.820007  76089400
+2024-08-06  135.149994  136.440002  ...  130.179993  64455600
+2024-08-07  133.750000  136.240005  ...  128.669998  54676500
+2024-08-08  131.970001  136.479996  ...  136.320007  49037500
+
+[6 rows x 6 columns],                   Open        High  ...   Adj Close     Volume
+Date                                ...                       
+2024-08-01  189.289993  190.600006  ...  184.070007   70435600
+2024-08-02  166.750000  168.770004  ...  167.899994  141448400
+2024-08-05  154.210007  162.960007  ...  161.020004   83149400
+2024-08-06  161.710007  165.080002  ...  161.929993   59950800
+2024-08-07  166.550003  167.580002  ...  162.770004   48408200
+2024-08-08  165.169998  166.690002  ...  165.800003   44616200
+
+[6 rows x 6 columns],                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-01  171.759995  176.970001  ...  164.000000  24795000
+2024-08-02  160.520004  164.259995  ...  159.309998  16618900
+2024-08-05  153.270004  162.820007  ...  157.949997  12733900
+2024-08-06  158.419998  163.630005  ...  158.720001   9301000
+2024-08-07  163.580002  164.320007  ...  156.119995   9266900
+2024-08-08  160.740005  165.589996  ...  164.949997   9590900
+
+[6 rows x 6 columns], Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume]
+Index: [],                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-01  170.250000  174.050003  ...  170.759995  24531400
+2024-08-02  166.440002  168.509995  ...  166.660004  29130100
+2024-08-05  155.500000  164.429993  ...  159.250000  53630700
+2024-08-06  159.330002  160.570007  ...  158.289993  49004600
+2024-08-07  161.250000  162.979996  ...  158.940002  25138600
+2024-08-08  160.509995  163.690002  ...  162.029999  25578800
+
+[6 rows x 6 columns],                  Open       High        Low      Close  Adj Close     Volume
+Date                                                                        
+2024-08-01  30.430000  30.709999  28.889999  29.049999  28.866879  107672500
+2024-08-02  21.940001  21.980000  20.420000  21.480000  21.344599  300895900
+2024-08-05  20.200001  20.389999  19.290001  20.110001  19.983234  147385700
+2024-08-06  20.320000  20.629999  19.750000  19.830000  19.705000  106670400
+2024-08-07  19.920000  20.250000  18.950001  18.990000  18.990000   97972300
+2024-08-08  19.100000  20.549999  18.840000  20.490000  20.490000   96836800,                   Open        High  ...   Adj Close    Volume
+Date                                ...                      
+2024-08-01  521.000000  527.169983  ...  497.739990  43083100
+2024-08-02  489.000000  501.149994  ...  488.140015  24044700
+2024-08-05  451.350006  483.480011  ...  475.730011  21396200
+2024-08-06  479.000000  502.559998  ...  494.089996  20955000
+2024-08-07  503.130005  510.149994  ...  488.920013  20105300
+2024-08-08  497.500000  509.959991  ...  509.630005  16156800
+
+[6 rows x 6 columns],                   Open        High  ...   Adj Close     Volume
+Date                                ...                       
+2024-08-01  117.529999  120.160004  ...  109.209999  523462300
+2024-08-02  103.760002  108.720001  ...  107.269997  482027500
+2024-08-05   92.059998  103.410004  ...  100.449997  552842400
+2024-08-06  103.839996  107.709999  ...  104.250000  409012100
+2024-08-07  107.809998  108.800003  ...   98.910004  411440400
+2024-08-08  102.000000  105.500000  ...  104.970001  391910000
+
+[6 rows x 6 columns],                   Open        High         Low       Close   Adj Close   Volume
+Date                                                                           
+2024-08-01  629.250000  646.710022  617.609985  624.849976  624.849976  3720600
+2024-08-02  620.979980  625.270020  608.349976  613.640015  613.640015  3523000
+2024-08-05  587.039978  604.559998  587.039978  598.549988  598.549988  4044200
+2024-08-06  600.619995  622.450012  600.619995  609.570007  609.570007  4319100
+2024-08-07  616.070007  632.000000  610.640015  611.479980  611.479980  3187800
+2024-08-08  621.989990  632.289978  616.020020  630.349976  630.349976  3283500]
+[2024-08-10T14:26:14.260+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-10T14:26:14.321+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data, task_id=get_data, run_id=manual__2024-08-10T14:26:09.677836+00:00, execution_date=20240810T142609, start_date=20240810T142611, end_date=20240810T142614
+[2024-08-10T14:26:14.370+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-10T14:26:14.413+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-10T14:26:14.416+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

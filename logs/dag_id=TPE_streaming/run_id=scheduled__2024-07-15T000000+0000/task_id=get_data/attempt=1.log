@@ -1,0 +1,33 @@
+[2024-08-08T16:37:37.381+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-08T16:37:37.478+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: TPE_streaming.get_data scheduled__2024-07-15T00:00:00+00:00 [queued]>
+[2024-08-08T16:37:37.498+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: TPE_streaming.get_data scheduled__2024-07-15T00:00:00+00:00 [queued]>
+[2024-08-08T16:37:37.499+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-08T16:37:37.531+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-07-15 00:00:00+00:00
+[2024-08-08T16:37:37.586+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1290) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-08T16:37:37.603+0000] {standard_task_runner.py:64} INFO - Started process 1294 to run task
+[2024-08-08T16:37:37.572+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'TPE_streaming', 'get_data', 'scheduled__2024-07-15T00:00:00+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/topic.py', '--cfg-path', '/tmp/tmpbw5flxy3']
+[2024-08-08T16:37:37.618+0000] {standard_task_runner.py:91} INFO - Job 104: Subtask get_data
+[2024-08-08T16:37:37.699+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-08T16:37:37.943+0000] {task_command.py:426} INFO - Running <TaskInstance: TPE_streaming.get_data scheduled__2024-07-15T00:00:00+00:00 [running]> on host 552be2a98828
+[2024-08-08T16:37:38.474+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='TPE_streaming' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-07-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-07-15T00:00:00+00:00'
+[2024-08-08T16:37:38.485+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-08T16:37:40.824+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-08T16:37:41.171+0000] {python.py:237} INFO - Done. Returned value was: [            Open  High   Low  Close  Adj Close    Volume
+Date                                                    
+2010-06-30  5.13  5.14  5.01   5.05       5.05  89320000
+2010-07-01  5.01  5.07  4.96   5.05       5.05  19215635
+2010-07-02  5.06  5.09  5.05   5.06       5.06   5232982
+2010-07-06  5.06  5.09  5.06   5.07       5.07   3961562
+2010-07-07  5.06  5.07  5.04   5.05       5.05   5290180
+...          ...   ...   ...    ...        ...       ...
+2018-01-24  3.25  3.25  3.14   3.14       3.14   4461116
+2018-01-25  3.14  3.17  3.11   3.11       3.11   3655176
+2018-01-26  3.12  3.13  3.07   3.08       3.08   4814469
+2018-01-29  3.09  3.16  3.08   3.13       3.13   2622926
+2018-01-30  3.13  3.13  3.05   3.05       3.05   3468830
+
+[1900 rows x 6 columns]]
+[2024-08-08T16:37:41.224+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-08T16:37:41.328+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=TPE_streaming, task_id=get_data, run_id=scheduled__2024-07-15T00:00:00+00:00, execution_date=20240715T000000, start_date=20240808T163737, end_date=20240808T163741
+[2024-08-08T16:37:41.397+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-08T16:37:41.447+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

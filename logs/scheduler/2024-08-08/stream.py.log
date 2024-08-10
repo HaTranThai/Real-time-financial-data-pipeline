@@ -1,0 +1,980 @@
+[2024-08-08T15:49:31.672+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:49:31.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:49:31.678+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:49:31.678+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:49:31.954+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:49:32.012+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:49:32.011+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:49:32.061+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:49:32.060+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:49:32.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.432 seconds
+[2024-08-08T15:50:02.330+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:50:02.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:50:02.335+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:02.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:50:02.731+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:50:03.414+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:03.413+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:50:03.515+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:03.515+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:50:03.662+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.347 seconds
+[2024-08-08T15:50:33.872+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:50:33.873+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:50:33.875+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:33.875+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:50:34.059+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:50:34.100+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:34.099+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:50:34.133+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:50:34.133+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:50:34.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.289 seconds
+[2024-08-08T15:51:04.621+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:51:04.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:51:04.625+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:04.625+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:51:04.844+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:51:04.886+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:04.885+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:51:04.916+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:04.916+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:51:04.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.332 seconds
+[2024-08-08T15:51:35.217+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:51:35.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:51:35.222+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:35.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:51:35.472+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:51:35.521+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:35.521+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:51:35.553+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:51:35.553+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:51:35.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.372 seconds
+[2024-08-08T15:52:05.860+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:52:05.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:52:05.865+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:05.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:52:06.295+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:52:06.386+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:06.386+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:52:06.436+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:06.435+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:52:06.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.629 seconds
+[2024-08-08T15:52:36.729+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:52:36.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:52:36.735+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:36.735+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:52:37.061+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:52:37.120+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:37.120+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:52:37.173+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:52:37.173+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:52:37.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.485 seconds
+[2024-08-08T15:53:07.523+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:53:07.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:53:07.527+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:07.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:53:07.811+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:53:07.878+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:07.878+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:53:07.911+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:07.911+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:53:07.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.436 seconds
+[2024-08-08T15:53:38.264+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:53:38.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:53:38.270+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:38.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:53:38.609+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:53:38.675+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:38.675+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:53:38.705+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:53:38.704+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:53:38.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.477 seconds
+[2024-08-08T15:54:08.965+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:54:08.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:54:08.974+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:08.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:54:09.298+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:54:09.390+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:09.389+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:54:09.460+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:09.459+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:54:09.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.555 seconds
+[2024-08-08T15:54:39.651+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:54:39.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:54:39.656+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:39.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:54:40.006+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:54:40.341+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:40.340+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:54:40.377+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:54:40.376+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:54:40.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.768 seconds
+[2024-08-08T15:55:10.740+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:55:10.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:55:10.746+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:10.746+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:55:11.244+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:55:11.644+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:11.643+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:55:11.689+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:11.688+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:55:11.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.004 seconds
+[2024-08-08T15:55:42.036+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:55:42.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:55:42.039+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:42.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:55:42.188+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:55:42.221+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:42.220+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:55:42.243+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:55:42.243+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:55:42.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.246 seconds
+[2024-08-08T15:56:12.569+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:56:12.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:56:12.572+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:12.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:56:12.719+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:56:12.748+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:12.748+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:56:12.783+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:12.783+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:56:12.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.241 seconds
+[2024-08-08T15:56:43.126+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:56:43.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:56:43.129+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:43.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:56:43.278+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:56:43.312+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:43.311+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:56:43.336+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:56:43.336+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:56:43.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.247 seconds
+[2024-08-08T15:57:13.720+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:57:13.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:57:13.723+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:13.723+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:57:13.865+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:57:13.894+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:13.894+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:57:13.914+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:13.913+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:57:13.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.249 seconds
+[2024-08-08T15:57:44.299+0000] {processor.py:161} INFO - Started process (PID=376) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:57:44.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:57:44.303+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:44.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:57:44.475+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:57:44.507+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:44.507+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:57:44.529+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:57:44.528+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:57:44.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.283 seconds
+[2024-08-08T15:58:14.895+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:58:14.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:58:14.898+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:14.898+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:58:15.036+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:58:15.064+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:15.064+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:58:15.104+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:15.104+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:58:15.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.233 seconds
+[2024-08-08T15:58:45.441+0000] {processor.py:161} INFO - Started process (PID=396) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:58:45.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:58:45.444+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:45.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:58:45.623+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:58:45.656+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:45.656+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:58:45.680+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:58:45.680+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:58:45.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.281 seconds
+[2024-08-08T15:59:16.002+0000] {processor.py:161} INFO - Started process (PID=406) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:59:16.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:59:16.005+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:16.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:59:16.185+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:59:16.223+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:16.221+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:59:16.265+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:16.264+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:59:16.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.296 seconds
+[2024-08-08T15:59:46.538+0000] {processor.py:161} INFO - Started process (PID=416) to work on /opt/airflow/dags/stream.py
+[2024-08-08T15:59:46.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T15:59:46.544+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:46.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T15:59:46.712+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T15:59:46.755+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:46.755+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T15:59:46.819+0000] {logging_mixin.py:188} INFO - [2024-08-08T15:59:46.819+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T15:59:46.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.322 seconds
+[2024-08-08T16:00:17.105+0000] {processor.py:161} INFO - Started process (PID=426) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:00:17.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:00:17.111+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:17.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:00:17.504+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:00:17.565+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:17.564+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:00:17.613+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:17.613+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:00:17.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.569 seconds
+[2024-08-08T16:00:47.860+0000] {processor.py:161} INFO - Started process (PID=436) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:00:47.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:00:47.863+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:47.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:00:48.035+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:00:48.072+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:48.072+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:00:48.114+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:00:48.114+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:00:48.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.295 seconds
+[2024-08-08T16:01:18.508+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:01:18.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:01:18.512+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:18.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:01:18.716+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:01:18.764+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:18.764+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:01:18.800+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:18.800+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:01:18.848+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.346 seconds
+[2024-08-08T16:01:49.137+0000] {processor.py:161} INFO - Started process (PID=456) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:01:49.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:01:49.160+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:49.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:01:49.385+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:01:49.425+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:49.425+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:01:49.459+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:01:49.458+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:01:49.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.377 seconds
+[2024-08-08T16:02:19.860+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:02:19.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:02:19.864+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:19.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:02:20.048+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:02:20.089+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:20.088+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:02:20.119+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:20.119+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:02:20.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.303 seconds
+[2024-08-08T16:02:50.507+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:02:50.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:02:50.510+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:50.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:02:50.653+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:02:50.691+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:50.690+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:02:50.720+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:02:50.720+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:02:50.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.261 seconds
+[2024-08-08T16:03:21.111+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:03:21.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:03:21.116+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:21.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:03:21.313+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:03:21.379+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:21.379+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:03:21.408+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:21.408+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:03:21.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.331 seconds
+[2024-08-08T16:03:51.728+0000] {processor.py:161} INFO - Started process (PID=496) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:03:51.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:03:51.731+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:51.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:03:51.896+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:03:51.930+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:51.930+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:03:51.960+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:03:51.959+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:03:51.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.276 seconds
+[2024-08-08T16:04:22.293+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:04:22.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:04:22.297+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:22.296+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:04:22.488+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:04:22.534+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:22.534+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:04:22.589+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:22.588+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:04:22.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.350 seconds
+[2024-08-08T16:04:52.990+0000] {processor.py:161} INFO - Started process (PID=516) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:04:52.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:04:52.994+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:52.993+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:04:53.178+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:04:53.220+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:53.220+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:04:53.259+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:04:53.259+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:04:53.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.298 seconds
+[2024-08-08T16:05:23.602+0000] {processor.py:161} INFO - Started process (PID=526) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:05:23.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:05:23.606+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:23.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:05:23.778+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:05:23.815+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:23.814+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:05:23.845+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:23.844+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:05:23.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.292 seconds
+[2024-08-08T16:05:54.194+0000] {processor.py:161} INFO - Started process (PID=536) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:05:54.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:05:54.197+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:54.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:05:54.363+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:05:54.405+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:54.405+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:05:54.435+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:05:54.435+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:05:54.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.313 seconds
+[2024-08-08T16:06:24.767+0000] {processor.py:161} INFO - Started process (PID=546) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:06:24.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:06:24.770+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:24.770+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:06:24.919+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:06:24.951+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:24.951+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:06:24.976+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:24.975+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:06:25.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.255 seconds
+[2024-08-08T16:06:55.350+0000] {processor.py:161} INFO - Started process (PID=556) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:06:55.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:06:55.355+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:55.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:06:55.562+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:06:55.614+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:55.614+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:06:55.658+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:06:55.657+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:06:55.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.353 seconds
+[2024-08-08T16:07:26.100+0000] {processor.py:161} INFO - Started process (PID=566) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:07:26.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:07:26.103+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:26.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:07:26.276+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:07:26.311+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:26.310+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:07:26.338+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:26.337+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:07:26.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.292 seconds
+[2024-08-08T16:07:57.322+0000] {processor.py:161} INFO - Started process (PID=576) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:07:57.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:07:57.333+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:57.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:07:57.891+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:07:57.992+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:57.991+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:07:58.077+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:07:58.076+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:07:58.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.833 seconds
+[2024-08-08T16:08:28.266+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:08:28.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:08:28.271+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:28.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:08:28.588+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:08:28.659+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:28.658+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:08:28.732+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:28.731+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:08:28.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.562 seconds
+[2024-08-08T16:08:59.168+0000] {processor.py:161} INFO - Started process (PID=596) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:08:59.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:08:59.172+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:59.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:08:59.389+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:08:59.437+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:59.436+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:08:59.497+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:08:59.497+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:08:59.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.380 seconds
+[2024-08-08T16:09:30.008+0000] {processor.py:161} INFO - Started process (PID=606) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:09:30.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:09:30.011+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:09:30.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:09:30.178+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:09:30.235+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:09:30.234+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:09:30.264+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:09:30.264+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:09:30.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.297 seconds
+[2024-08-08T16:10:00.519+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:10:00.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:10:00.527+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:00.527+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:10:00.740+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:10:00.781+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:00.780+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:10:00.811+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:00.811+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:10:00.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.355 seconds
+[2024-08-08T16:10:31.231+0000] {processor.py:161} INFO - Started process (PID=626) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:10:31.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:10:31.235+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:31.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:10:31.463+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:10:31.535+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:31.534+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:10:31.615+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:10:31.614+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:10:31.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.433 seconds
+[2024-08-08T16:11:02.000+0000] {processor.py:161} INFO - Started process (PID=636) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:11:02.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:11:02.004+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:02.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:11:02.206+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:11:02.270+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:02.269+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:11:02.306+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:02.306+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:11:02.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.340 seconds
+[2024-08-08T16:11:32.421+0000] {processor.py:161} INFO - Started process (PID=646) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:11:32.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:11:32.427+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:32.426+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:11:32.707+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:11:32.753+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:32.752+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:11:32.787+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:11:32.787+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:11:32.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.413 seconds
+[2024-08-08T16:12:03.147+0000] {processor.py:161} INFO - Started process (PID=656) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:12:03.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:12:03.155+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:03.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:12:03.450+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:12:03.509+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:03.509+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:12:03.553+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:03.553+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:12:03.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.451 seconds
+[2024-08-08T16:12:34.149+0000] {processor.py:161} INFO - Started process (PID=666) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:12:34.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:12:34.155+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:34.154+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:12:34.455+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:12:34.534+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:34.534+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:12:34.617+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:12:34.616+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:12:34.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.530 seconds
+[2024-08-08T16:13:05.154+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:13:05.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:13:05.158+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:05.157+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:13:05.306+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:13:05.349+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:05.349+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:13:05.383+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:05.383+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:13:05.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.280 seconds
+[2024-08-08T16:13:35.783+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:13:35.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:13:35.789+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:35.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:13:36.119+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:13:36.198+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:36.198+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:13:36.246+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:13:36.245+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:13:36.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.510 seconds
+[2024-08-08T16:14:06.461+0000] {processor.py:161} INFO - Started process (PID=696) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:14:06.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:14:06.468+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:06.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:14:06.731+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:14:06.813+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:06.811+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:14:06.881+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:06.880+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:14:06.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.482 seconds
+[2024-08-08T16:14:37.942+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:14:37.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:14:37.987+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:37.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:14:38.416+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:14:38.471+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:38.471+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:14:38.509+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:14:38.508+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:14:38.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.644 seconds
+[2024-08-08T16:15:09.072+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:15:09.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:15:09.076+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:09.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:15:09.290+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:15:09.331+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:09.331+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:15:09.385+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:09.384+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:15:09.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.354 seconds
+[2024-08-08T16:15:39.745+0000] {processor.py:161} INFO - Started process (PID=726) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:15:39.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:15:39.749+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:39.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:15:40.034+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:15:40.114+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:40.113+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:15:40.209+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:15:40.208+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:15:40.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.550 seconds
+[2024-08-08T16:16:10.407+0000] {processor.py:161} INFO - Started process (PID=736) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:16:10.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:16:10.412+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:10.411+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:16:10.686+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:16:10.767+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:10.766+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:16:10.818+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:10.818+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:16:10.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.475 seconds
+[2024-08-08T16:16:41.297+0000] {processor.py:161} INFO - Started process (PID=746) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:16:41.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:16:41.312+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:41.310+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:16:41.677+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:16:41.765+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:41.764+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:16:41.837+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:16:41.837+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:16:41.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.618 seconds
+[2024-08-08T16:17:12.454+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:17:12.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:17:12.596+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:12.579+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:17:13.784+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:17:13.933+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:13.933+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:17:14.050+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:14.050+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:17:14.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.708 seconds
+[2024-08-08T16:17:44.466+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:17:44.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:17:44.470+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:44.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:17:44.751+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:17:44.831+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:44.831+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:17:44.890+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:17:44.890+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:17:44.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.487 seconds
+[2024-08-08T16:18:15.073+0000] {processor.py:161} INFO - Started process (PID=785) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:18:15.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:18:15.079+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:15.078+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:18:15.718+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:18:15.783+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:15.782+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:18:15.840+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:15.839+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:18:15.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.839 seconds
+[2024-08-08T16:18:46.168+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:18:46.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:18:46.172+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:46.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:18:46.391+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:18:46.433+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:46.433+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:18:46.464+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:18:46.464+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:18:46.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.329 seconds
+[2024-08-08T16:19:17.095+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:19:17.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:19:17.103+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:17.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:19:17.495+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:19:17.560+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:17.559+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:19:17.599+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:17.598+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:19:17.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.580 seconds
+[2024-08-08T16:19:48.081+0000] {processor.py:161} INFO - Started process (PID=815) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:19:48.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:19:48.087+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:48.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:19:48.479+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:19:48.565+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:48.565+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:19:48.615+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:19:48.615+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:19:48.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.601 seconds
+[2024-08-08T16:20:19.395+0000] {processor.py:161} INFO - Started process (PID=825) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:20:19.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:20:19.399+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:19.398+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:20:19.604+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:20:19.648+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:19.648+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:20:19.689+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:19.689+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:20:19.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.347 seconds
+[2024-08-08T16:20:49.926+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:20:49.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:20:49.932+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:49.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:20:50.224+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:20:50.269+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:50.269+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:20:50.322+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:20:50.321+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:20:50.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.441 seconds
+[2024-08-08T16:21:20.703+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:21:20.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:21:20.707+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:20.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:21:21.122+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:21:21.179+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:21.179+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:21:21.232+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:21.231+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:21:21.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.600 seconds
+[2024-08-08T16:21:51.404+0000] {processor.py:161} INFO - Started process (PID=864) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:21:51.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:21:51.411+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:51.410+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:21:51.774+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:21:51.844+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:51.843+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:21:51.887+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:21:51.887+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:21:51.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.563 seconds
+[2024-08-08T16:22:22.796+0000] {processor.py:161} INFO - Started process (PID=874) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:22:22.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:22:22.799+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:22.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:22:22.974+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:22:23.017+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:23.016+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:22:23.046+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:23.046+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:22:23.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.295 seconds
+[2024-08-08T16:22:53.199+0000] {processor.py:161} INFO - Started process (PID=893) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:22:53.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:22:53.204+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:53.204+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:22:53.473+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:22:53.538+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:53.538+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:22:53.597+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:22:53.597+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:22:53.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.471 seconds
+[2024-08-08T16:23:23.747+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:23:23.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:23:23.751+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:23.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:23:24.002+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:23:24.056+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:24.056+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:23:24.107+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:24.107+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:23:24.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.404 seconds
+[2024-08-08T16:23:54.502+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:23:54.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:23:54.506+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:54.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:23:54.806+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:23:54.866+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:54.865+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:23:54.906+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:23:54.905+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:23:54.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.466 seconds
+[2024-08-08T16:24:25.506+0000] {processor.py:161} INFO - Started process (PID=932) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:24:25.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:24:25.511+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:25.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:24:25.849+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:24:25.906+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:25.906+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:24:25.974+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:25.974+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:24:26.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.540 seconds
+[2024-08-08T16:24:56.423+0000] {processor.py:161} INFO - Started process (PID=942) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:24:56.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:24:56.428+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:56.427+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:24:56.694+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:24:56.747+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:56.747+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:24:56.783+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:24:56.782+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:24:56.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.404 seconds
+[2024-08-08T16:25:27.138+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:25:27.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:25:27.154+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:27.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:25:28.190+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:25:28.271+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:28.271+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:25:28.340+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:28.339+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:25:28.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.325 seconds
+[2024-08-08T16:25:58.975+0000] {processor.py:161} INFO - Started process (PID=962) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:25:58.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:25:58.982+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:58.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:25:59.636+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:25:59.738+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:59.737+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:25:59.861+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:25:59.860+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:25:59.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.021 seconds
+[2024-08-08T16:26:30.570+0000] {processor.py:161} INFO - Started process (PID=972) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:26:30.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:26:30.588+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:26:30.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:26:31.323+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:26:31.455+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:26:31.454+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:26:31.592+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:26:31.591+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:26:31.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.217 seconds
+[2024-08-08T16:27:02.176+0000] {processor.py:161} INFO - Started process (PID=991) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:27:02.177+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:27:02.180+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:02.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:27:02.414+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:27:02.498+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:02.498+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:27:02.560+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:02.559+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:27:02.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.428 seconds
+[2024-08-08T16:27:33.035+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:27:33.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:27:33.041+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:33.040+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:27:33.364+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:27:33.471+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:33.471+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:27:33.538+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:27:33.537+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:27:33.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.589 seconds
+[2024-08-08T16:28:04.160+0000] {processor.py:161} INFO - Started process (PID=1011) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:28:04.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:28:04.165+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:04.164+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:28:04.327+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:28:04.363+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:04.363+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:28:04.391+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:04.391+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:28:04.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.282 seconds
+[2024-08-08T16:28:34.526+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:28:34.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:28:34.531+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:34.530+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:28:34.856+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:28:34.922+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:34.921+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:28:34.995+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:28:34.994+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:28:35.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.544 seconds
+[2024-08-08T16:29:05.438+0000] {processor.py:161} INFO - Started process (PID=1031) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:29:05.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:29:05.442+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:05.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:29:05.682+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:29:05.724+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:05.724+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:29:05.762+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:05.762+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:29:05.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.381 seconds
+[2024-08-08T16:29:36.002+0000] {processor.py:161} INFO - Started process (PID=1050) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:29:36.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:29:36.007+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:36.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:29:36.376+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:29:36.436+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:36.436+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:29:36.483+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:29:36.482+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:29:36.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.546 seconds
+[2024-08-08T16:30:06.890+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:30:06.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:30:06.893+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:06.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:30:07.165+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:30:07.213+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:07.213+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:30:07.249+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:07.249+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:30:07.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.414 seconds
+[2024-08-08T16:30:37.540+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:30:37.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:30:37.543+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:37.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:30:37.941+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:30:38.155+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:38.154+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:30:38.304+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:30:38.304+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:30:38.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.866 seconds
+[2024-08-08T16:31:08.725+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:31:08.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:31:08.730+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:08.730+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:31:09.019+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:31:09.082+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:09.081+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:31:09.132+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:09.131+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:31:09.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.475 seconds
+[2024-08-08T16:31:39.413+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:31:39.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:31:39.417+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:39.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:31:39.687+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:31:39.756+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:39.756+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:31:39.790+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:31:39.790+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:31:39.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.412 seconds
+[2024-08-08T16:32:10.170+0000] {processor.py:161} INFO - Started process (PID=1100) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:32:10.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:32:10.174+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:10.174+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:32:10.443+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:32:10.511+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:10.511+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:32:10.549+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:10.549+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:32:10.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.421 seconds
+[2024-08-08T16:32:40.929+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:32:40.931+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:32:40.934+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:40.933+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:32:41.121+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:32:41.160+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:41.160+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:32:41.191+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:32:41.191+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:32:41.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.310 seconds
+[2024-08-08T16:33:11.803+0000] {processor.py:161} INFO - Started process (PID=1120) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:33:11.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:33:11.807+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:11.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:33:12.163+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:33:12.226+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:12.226+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:33:12.279+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:12.279+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:33:12.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.540 seconds
+[2024-08-08T16:33:42.584+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:33:42.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:33:42.589+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:42.588+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:33:42.763+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:33:42.806+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:42.806+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:33:42.834+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:33:42.834+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:33:42.859+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.287 seconds
+[2024-08-08T16:34:13.418+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:34:13.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:34:13.423+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:13.422+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:34:13.694+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:34:13.750+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:13.750+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:34:13.792+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:13.792+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:34:13.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.433 seconds
+[2024-08-08T16:34:44.151+0000] {processor.py:161} INFO - Started process (PID=1172) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:34:44.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:34:44.159+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:44.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:34:44.591+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:34:44.777+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:44.776+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:34:44.877+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:34:44.876+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:34:44.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.822 seconds
+[2024-08-08T16:35:15.356+0000] {processor.py:161} INFO - Started process (PID=1187) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:35:15.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:35:15.369+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:15.368+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:35:15.713+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:35:15.805+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:15.804+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:35:15.859+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:15.858+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:35:15.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.561 seconds
+[2024-08-08T16:35:46.833+0000] {processor.py:161} INFO - Started process (PID=1202) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:35:46.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:35:46.879+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:46.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:35:47.343+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:35:47.418+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:47.418+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:35:47.466+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:35:47.465+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:35:47.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.708 seconds
+[2024-08-08T16:36:18.192+0000] {processor.py:161} INFO - Started process (PID=1263) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:36:18.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:36:18.196+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:18.196+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:36:18.461+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:36:18.517+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:18.516+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:36:18.560+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:18.560+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:36:18.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.432 seconds
+[2024-08-08T16:36:49.390+0000] {processor.py:161} INFO - Started process (PID=1274) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:36:49.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:36:49.397+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:49.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:36:49.818+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:36:49.947+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:49.946+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:36:50.018+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:36:50.017+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:36:50.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.710 seconds
+[2024-08-08T16:37:20.498+0000] {processor.py:161} INFO - Started process (PID=1283) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:37:20.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:37:20.523+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:20.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:37:21.071+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:37:21.272+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:21.272+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:37:21.366+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:21.366+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:37:21.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.986 seconds
+[2024-08-08T16:37:51.914+0000] {processor.py:161} INFO - Started process (PID=1350) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:37:51.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:37:51.919+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:51.919+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:37:52.511+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:37:52.734+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:52.733+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:37:52.872+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:37:52.871+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:37:52.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.094 seconds
+[2024-08-08T16:38:23.248+0000] {processor.py:161} INFO - Started process (PID=1361) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:38:23.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:38:23.253+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:23.252+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:38:23.484+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:38:23.528+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:23.528+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:38:23.563+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:23.562+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:38:23.608+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.376 seconds
+[2024-08-08T16:38:53.969+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:38:53.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:38:53.973+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:53.972+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:38:54.346+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:38:54.405+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:54.404+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:38:54.447+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:38:54.446+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:38:54.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.529 seconds
+[2024-08-08T16:39:24.844+0000] {processor.py:161} INFO - Started process (PID=1383) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:39:24.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:39:24.846+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:24.846+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:39:25.129+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:39:25.202+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:25.201+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:39:25.267+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:25.267+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:39:25.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.466 seconds
+[2024-08-08T16:39:55.817+0000] {processor.py:161} INFO - Started process (PID=1394) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:39:55.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:39:55.820+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:55.819+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:39:56.115+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:39:56.178+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:56.178+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:39:56.351+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:39:56.350+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:39:56.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.645 seconds
+[2024-08-08T16:40:26.908+0000] {processor.py:161} INFO - Started process (PID=1405) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:40:26.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:40:26.912+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:26.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:40:27.198+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:40:27.253+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:27.253+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:40:27.292+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:27.292+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:40:27.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.434 seconds
+[2024-08-08T16:40:57.697+0000] {processor.py:161} INFO - Started process (PID=1478) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:40:57.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:40:57.701+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:57.701+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:40:57.888+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:40:57.927+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:57.927+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:40:57.958+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:40:57.957+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:40:57.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.298 seconds
+[2024-08-08T16:41:28.301+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:41:28.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:41:28.304+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:28.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:41:28.521+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:41:28.562+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:28.562+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:41:28.589+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:28.589+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:41:28.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.344 seconds
+[2024-08-08T16:41:58.907+0000] {processor.py:161} INFO - Started process (PID=1500) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:41:58.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:41:58.910+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:58.909+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:41:59.079+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:41:59.116+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:59.116+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:41:59.144+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:41:59.143+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:41:59.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.289 seconds
+[2024-08-08T16:46:16.966+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:46:16.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:46:16.975+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:16.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:46:17.488+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:46:17.640+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:17.628+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:46:17.714+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:17.713+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:46:17.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.871 seconds
+[2024-08-08T16:46:48.401+0000] {processor.py:161} INFO - Started process (PID=309) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:46:48.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:46:48.405+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:48.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:46:48.592+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:46:48.737+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:48.736+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:46:48.759+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:46:48.759+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:46:48.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.402 seconds
+[2024-08-08T16:47:19.091+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:47:19.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:47:19.096+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:19.095+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:47:19.365+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:47:19.436+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:19.436+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:47:19.502+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:19.502+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:47:19.613+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.533 seconds
+[2024-08-08T16:47:49.846+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:47:49.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:47:49.850+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:49.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:47:50.195+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:47:50.247+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:50.247+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:47:50.285+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:47:50.285+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:47:50.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.486 seconds
+[2024-08-08T16:48:21.337+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:48:21.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:48:21.364+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:21.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:48:21.841+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:48:21.949+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:21.949+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:48:22.159+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:22.159+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:48:22.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.917 seconds
+[2024-08-08T16:48:52.581+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:48:52.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:48:52.592+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:52.591+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:48:53.176+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:48:53.283+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:53.282+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:48:53.406+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:48:53.406+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:48:53.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.925 seconds
+[2024-08-08T16:49:24.022+0000] {processor.py:161} INFO - Started process (PID=568) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:49:24.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:49:24.030+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:24.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:49:24.467+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:49:24.571+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:24.570+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:49:24.638+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:24.637+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:49:24.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.695 seconds
+[2024-08-08T16:49:55.543+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:49:55.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:49:55.549+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:55.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:49:56.011+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:49:56.119+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:56.119+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:49:56.262+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:49:56.262+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:49:56.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.786 seconds
+[2024-08-08T16:50:26.569+0000] {processor.py:161} INFO - Started process (PID=590) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:50:26.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:50:26.574+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:26.574+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:50:27.195+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:50:27.315+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:27.314+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:50:27.444+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:27.444+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:50:27.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.077 seconds
+[2024-08-08T16:50:58.401+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:50:58.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:50:58.405+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:58.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:50:58.708+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:50:58.764+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:58.763+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:50:58.826+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:50:58.826+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:50:58.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.490 seconds
+[2024-08-08T16:51:29.203+0000] {processor.py:161} INFO - Started process (PID=610) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:51:29.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:51:29.208+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:51:29.207+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:51:29.491+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:51:29.563+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:51:29.563+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:51:29.613+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:51:29.613+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:51:29.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.479 seconds
+[2024-08-08T16:52:00.563+0000] {processor.py:161} INFO - Started process (PID=620) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:52:00.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:52:00.568+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:00.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:52:00.792+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:52:00.841+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:00.840+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:52:00.896+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:00.895+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:52:00.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.376 seconds
+[2024-08-08T16:52:31.191+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:52:31.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:52:31.194+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:31.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:52:31.452+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:52:31.520+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:31.520+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:52:31.563+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:52:31.563+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:52:31.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.423 seconds
+[2024-08-08T16:53:02.212+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:53:02.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:53:02.215+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:02.215+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:53:02.390+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:53:02.428+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:02.427+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:53:02.457+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:02.457+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:53:02.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.282 seconds
+[2024-08-08T16:53:32.557+0000] {processor.py:161} INFO - Started process (PID=650) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:53:32.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:53:32.561+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:32.560+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:53:32.763+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:53:32.813+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:32.813+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:53:32.853+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:53:32.852+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:53:32.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.353 seconds
+[2024-08-08T16:54:03.340+0000] {processor.py:161} INFO - Started process (PID=661) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:54:03.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:54:03.364+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:03.364+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:54:03.855+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:54:03.934+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:03.933+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:54:04.040+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:04.039+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:54:04.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.782 seconds
+[2024-08-08T16:54:35.032+0000] {processor.py:161} INFO - Started process (PID=672) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:54:35.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:54:35.035+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:35.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:54:35.375+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:54:35.428+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:35.428+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:54:35.474+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:54:35.473+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:54:35.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.491 seconds
+[2024-08-08T16:55:06.016+0000] {processor.py:161} INFO - Started process (PID=683) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:55:06.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:55:06.018+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:06.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:55:06.216+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:55:06.256+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:06.256+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:55:06.285+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:06.284+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:55:06.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.321 seconds
+[2024-08-08T16:55:36.983+0000] {processor.py:161} INFO - Started process (PID=694) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:55:36.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:55:36.987+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:36.986+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:55:37.274+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:55:37.338+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:37.338+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:55:37.388+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:55:37.388+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:55:37.435+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.474 seconds
+[2024-08-08T16:56:07.988+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:56:08.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:56:08.081+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:08.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:56:08.764+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:56:08.885+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:08.884+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:56:08.950+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:08.950+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:56:08.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.040 seconds
+[2024-08-08T16:56:39.351+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:56:39.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:56:39.357+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:39.356+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:56:39.766+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:56:39.836+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:39.835+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:56:39.900+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:56:39.900+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:56:39.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.619 seconds
+[2024-08-08T16:57:10.382+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:57:10.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:57:10.385+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:10.384+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:57:10.548+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:57:10.593+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:10.592+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:57:10.627+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:10.627+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:57:10.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.296 seconds
+[2024-08-08T16:57:41.048+0000] {processor.py:161} INFO - Started process (PID=753) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:57:41.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:57:41.051+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:41.050+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:57:41.231+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:57:41.280+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:41.279+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:57:41.334+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:57:41.334+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:57:41.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.319 seconds
+[2024-08-08T16:58:11.649+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:58:11.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:58:11.652+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:11.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:58:11.828+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:58:11.865+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:11.865+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:58:11.893+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:11.893+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:58:11.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.290 seconds
+[2024-08-08T16:58:42.081+0000] {processor.py:161} INFO - Started process (PID=785) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:58:42.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:58:42.084+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:42.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:58:42.385+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:58:42.456+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:42.455+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:58:42.546+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:58:42.546+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:58:42.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.517 seconds
+[2024-08-08T16:59:13.824+0000] {processor.py:161} INFO - Started process (PID=801) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:59:13.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:59:13.846+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:13.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:59:14.992+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:59:15.172+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:15.172+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:59:15.353+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:15.352+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:59:15.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.716 seconds
+[2024-08-08T16:59:45.973+0000] {processor.py:161} INFO - Started process (PID=817) to work on /opt/airflow/dags/stream.py
+[2024-08-08T16:59:45.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T16:59:45.981+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:45.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T16:59:46.663+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T16:59:46.838+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:46.837+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T16:59:46.974+0000] {logging_mixin.py:188} INFO - [2024-08-08T16:59:46.973+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T16:59:47.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.103 seconds
+[2024-08-08T17:00:18.131+0000] {processor.py:161} INFO - Started process (PID=833) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:00:18.135+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:00:18.150+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:18.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:00:19.396+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:00:19.535+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:19.534+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:00:19.651+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:19.650+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:00:19.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.671 seconds
+[2024-08-08T17:00:50.287+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:00:50.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:00:50.319+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:50.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:00:51.642+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:00:51.876+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:51.865+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:00:52.101+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:00:52.100+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:00:52.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.963 seconds
+[2024-08-08T17:01:22.846+0000] {processor.py:161} INFO - Started process (PID=865) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:01:22.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:01:22.851+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:22.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:01:23.439+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:01:23.552+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:23.551+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:01:23.647+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:23.646+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:01:23.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.880 seconds
+[2024-08-08T17:01:53.955+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:01:53.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:01:53.958+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:53.957+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:01:54.152+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:01:54.196+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:54.196+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:01:54.226+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:01:54.225+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:01:54.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.315 seconds
+[2024-08-08T17:02:24.606+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:02:24.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:02:24.610+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:24.610+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:02:24.881+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:02:24.932+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:24.932+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:02:24.967+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:24.966+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:02:25.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.403 seconds
+[2024-08-08T17:02:55.198+0000] {processor.py:161} INFO - Started process (PID=910) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:02:55.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:02:55.200+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:55.200+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:02:55.392+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:02:55.426+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:55.425+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:02:55.451+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:02:55.451+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:02:55.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.284 seconds
+[2024-08-08T17:03:26.415+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:03:26.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:03:26.419+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:26.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:03:26.649+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:03:26.710+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:26.709+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:03:26.753+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:26.753+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:03:26.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.380 seconds
+[2024-08-08T17:03:57.614+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:03:57.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:03:57.618+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:57.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:03:57.795+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:03:57.828+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:57.827+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:03:57.857+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:03:57.857+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:03:57.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.278 seconds
+[2024-08-08T17:04:27.974+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:04:27.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:04:27.980+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:27.979+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:04:28.273+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:04:28.343+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:28.342+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:04:28.396+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:28.395+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:04:28.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.490 seconds
+[2024-08-08T17:04:58.570+0000] {processor.py:161} INFO - Started process (PID=971) to work on /opt/airflow/dags/stream.py
+[2024-08-08T17:04:58.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-08T17:04:58.572+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:58.572+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-08T17:04:58.720+0000] {processor.py:840} INFO - DAG(s) 'finnhub_kafka' retrieved from /opt/airflow/dags/stream.py
+[2024-08-08T17:04:58.753+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:58.753+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-08T17:04:58.779+0000] {logging_mixin.py:188} INFO - [2024-08-08T17:04:58.778+0000] {dag.py:3947} INFO - Setting next_dagrun for finnhub_kafka to None, run_after=None
+[2024-08-08T17:04:58.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 0.238 seconds

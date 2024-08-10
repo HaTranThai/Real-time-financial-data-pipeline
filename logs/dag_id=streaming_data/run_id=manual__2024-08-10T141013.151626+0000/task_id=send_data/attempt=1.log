@@ -1,0 +1,79 @@
+[2024-08-10T14:10:19.730+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-10T14:10:19.777+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data.send_data manual__2024-08-10T14:10:13.151626+00:00 [queued]>
+[2024-08-10T14:10:19.789+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data.send_data manual__2024-08-10T14:10:13.151626+00:00 [queued]>
+[2024-08-10T14:10:19.807+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-10T14:10:19.837+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): send_data> on 2024-08-10 14:10:13.151626+00:00
+[2024-08-10T14:10:19.848+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=1069) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-10T14:10:19.850+0000] {standard_task_runner.py:64} INFO - Started process 1071 to run task
+[2024-08-10T14:10:19.849+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data', 'send_data', 'manual__2024-08-10T14:10:13.151626+00:00', '--job-id', '188', '--raw', '--subdir', 'DAGS_FOLDER/stream.py', '--cfg-path', '/tmp/tmpzmxog_x_']
+[2024-08-10T14:10:19.852+0000] {standard_task_runner.py:91} INFO - Job 188: Subtask send_data
+[2024-08-10T14:10:19.874+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-10T14:10:19.921+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data.send_data manual__2024-08-10T14:10:13.151626+00:00 [running]> on host 562e157be0a0
+[2024-08-10T14:10:20.041+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data' AIRFLOW_CTX_TASK_ID='send_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-10T14:10:13.151626+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-10T14:10:13.151626+00:00'
+[2024-08-10T14:10:20.042+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-10T14:10:21.064+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.065+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.066+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.066+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.067+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.067+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.068+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.069+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.069+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.070+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.070+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.071+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.071+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.071+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.072+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.072+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.073+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.073+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.074+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.074+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.075+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.075+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.075+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.076+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.077+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.077+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.077+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.078+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.078+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.079+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.079+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.080+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.080+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.080+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.081+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.082+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.082+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.083+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.083+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.083+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.085+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.086+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.086+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.086+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.087+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.087+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.088+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.088+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.089+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.089+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.090+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.090+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.091+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.091+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.091+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.092+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.092+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.093+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.093+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.093+0000] {logging_mixin.py:188} INFO - Delivered message to data [0]
+[2024-08-10T14:10:21.094+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-08-10T14:10:21.095+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-10T14:10:21.106+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data, task_id=send_data, run_id=manual__2024-08-10T14:10:13.151626+00:00, execution_date=20240810T141013, start_date=20240810T141019, end_date=20240810T141021
+[2024-08-10T14:10:21.163+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-10T14:10:21.183+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-08-10T14:10:21.186+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
