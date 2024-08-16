@@ -14,14 +14,14 @@ def create_keyspace(session):
 
 def create_table(session):
     session.execute("""
-        CREATE TABLE IF NOT EXISTS stock_spark_streams.stock_data (
+        CREATE TABLE IF NOT EXISTS stock_spark_streams.data (
             symbol TEXT,
-            timestamp TEXT,
-            open TEXT,
-            high TEXT,
-            low TEXT,
-            close TEXT,
-            volume TEXT,
+            timestamp TIMESTAMP,
+            open DOUBLE,
+            high DOUBLE,
+            low DOUBLE,
+            close DOUBLE,
+            volume DOUBLE,
             PRIMARY KEY ((timestamp), symbol)
         );
     """)
@@ -41,7 +41,7 @@ def insert_data(session, **kwargs):
 
     try:
         session.execute("""
-            INSERT INTO stock_spark_streams.stock_data (symbol, timestamp, open, high, low, 
+            INSERT INTO stock_spark_streams.data (symbol, timestamp, open, high, low, 
                 close, volume)
             VALUES (%s, %s, %s, %s, %s, %s, %s)
         """, (symbol, timestamp, open, high, low, close, volume))
@@ -76,7 +76,7 @@ def connect_to_kafka(spark_conn):
         spark_df = spark_conn.readStream \
             .format('kafka') \
             .option('kafka.bootstrap.servers', 'localhost:9092') \
-            .option('subscribe', 'stock_data') \
+            .option('subscribe', 'data') \
             .option('startingOffsets', 'earliest') \
             .option("failOnDataLoss", "false") \
             .load()
@@ -137,7 +137,7 @@ if __name__ == "__main__":
                                .format("org.apache.spark.sql.cassandra")
                                .option('checkpointLocation', '/tmp/checkpoint')
                                .option('keyspace', 'stock_spark_streams')
-                               .option('table', 'stock_data')
+                               .option('table', 'data')
                                .start())
 
             streaming_query.awaitTermination()

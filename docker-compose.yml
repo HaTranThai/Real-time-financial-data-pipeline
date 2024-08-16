@@ -22,6 +22,25 @@ x-airflow-common:
       condition: service_healthy
 
 services:
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    networks:
+     - confluent
+    environment:
+      GF_LOG_LEVEL: debug
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Admin
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_BASIC_ENABLED: "false"
+      GF_DEFAULT_APP_MODE: development
+      GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS: hadesarchitect-cassandra-datasource
+      GF_INSTALL_PLUGINS: hadesarchitect-cassandra-datasource
+    ports:
+      - '3001:3000'
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
   zookeeper:
       image: confluentinc/cp-zookeeper:7.4.0
       hostname: zookeeper
@@ -216,6 +235,7 @@ services:
 
 volumes:
   postgres-db-volume:
+  grafana-storage:
 
 networks:
   confluent:

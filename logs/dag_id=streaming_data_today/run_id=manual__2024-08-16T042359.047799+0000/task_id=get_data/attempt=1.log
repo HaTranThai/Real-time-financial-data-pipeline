@@ -1,0 +1,49 @@
+[2024-08-16T04:24:01.761+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-16T04:24:01.856+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-16T04:23:59.047799+00:00 [queued]>
+[2024-08-16T04:24:01.875+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-16T04:23:59.047799+00:00 [queued]>
+[2024-08-16T04:24:01.877+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-16T04:24:01.937+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-08-16 04:23:59.047799+00:00
+[2024-08-16T04:24:01.953+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=670) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-16T04:24:01.952+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data_today', 'get_data', 'manual__2024-08-16T04:23:59.047799+00:00', '--job-id', '243', '--raw', '--subdir', 'DAGS_FOLDER/stream_today.py', '--cfg-path', '/tmp/tmpokml67z4']
+[2024-08-16T04:24:01.957+0000] {standard_task_runner.py:64} INFO - Started process 672 to run task
+[2024-08-16T04:24:01.958+0000] {standard_task_runner.py:91} INFO - Job 243: Subtask get_data
+[2024-08-16T04:24:01.993+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-16T04:24:02.082+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data_today.get_data manual__2024-08-16T04:23:59.047799+00:00 [running]> on host 3543b736d6b3
+[2024-08-16T04:24:02.291+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data_today' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-16T04:23:59.047799+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-16T04:23:59.047799+00:00'
+[2024-08-16T04:24:02.293+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-16T04:24:03.027+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:03.229+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:03.393+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:03.542+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:03.706+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:03.877+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:04.035+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:04.191+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:04.380+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:04.536+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T04:24:04.621+0000] {python.py:237} INFO - Done. Returned value was: [               Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  37500.0  38300.0  37150.0  37850.0    37850.0  17798730,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  41000.0  41150.0  40800.0  40800.0    40800.0  1213500,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  74000.0  74600.0  73700.0  73800.0    73800.0  4255830,                Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  25450.0  25450.0  25200.0  25200.0    25200.0  17264450,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  76700.0  76700.0  75000.0  75000.0    75000.0  3474953,                Open     High      Low    Close  Adj Close  Volume
+Date                                                             
+2024-08-15  88000.0  88800.0  87600.0  87600.0    87600.0  921018,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  47050.0  47450.0  46650.0  46650.0    46650.0  1004349,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  31800.0  31950.0  31450.0  31850.0    31850.0  5235800,                 Open      High       Low     Close  Adj Close   Volume
+Date                                                                  
+2024-08-15  129100.0  129500.0  128200.0  128700.0   128700.0  2305600,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  82000.0  82700.0  81200.0  81200.0    81200.0  1248035]
+[2024-08-16T04:24:04.792+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-16T04:24:04.879+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data_today, task_id=get_data, run_id=manual__2024-08-16T04:23:59.047799+00:00, execution_date=20240816T042359, start_date=20240816T042401, end_date=20240816T042404
+[2024-08-16T04:24:04.926+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-16T04:24:04.988+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-16T04:24:04.992+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
