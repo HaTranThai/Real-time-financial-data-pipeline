@@ -123,9 +123,6 @@
       "pluginVersion": "11.1.3",
       "targets": [
         {
-          "columnId": "high",
-          "columnTime": "timestamp",
-          "columnValue": "close",
           "datasource": {
             "type": "hadesarchitect-cassandra-datasource",
             "uid": "ddux8dkykzhmob"
@@ -135,11 +132,11 @@
           "queryType": "query",
           "rawQuery": false,
           "refId": "A",
-          "table": "data",
+          "table": "sma",
           "target": "SELECT * FROM stock_spark_streams.data WHERE symbol='FPT.VN';\n"
         }
       ],
-      "title": "đường MA",
+      "title": "MA",
       "type": "timeseries"
     },
     {
@@ -250,7 +247,7 @@
           "target": "SELECT * FROM stock_spark_streams.data WHERE symbol='FPT.VN' ALLOW FILTERING ;\n\n"
         }
       ],
-      "title": "bieu do hinh nen",
+      "title": "Candlestick Chart",
       "type": "candlestick"
     }
   ],

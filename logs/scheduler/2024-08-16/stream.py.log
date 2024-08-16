@@ -2245,3 +2245,45 @@
 [2024-08-16T15:56:21.689+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:56:21.688+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2024-08-16T15:56:21.721+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:56:21.720+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
 [2024-08-16T15:56:21.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.340 seconds
+[2024-08-16T15:56:51.892+0000] {processor.py:161} INFO - Started process (PID=1473) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:56:51.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:56:51.896+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:56:51.896+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:56:52.936+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:56:52.995+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:56:52.994+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:56:53.026+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:56:53.026+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:56:53.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.177 seconds
+[2024-08-16T15:57:23.181+0000] {processor.py:161} INFO - Started process (PID=1485) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:57:23.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:57:23.197+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:23.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:57:24.131+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:57:24.169+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:24.168+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:57:24.196+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:24.196+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:57:24.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.062 seconds
+[2024-08-16T15:57:54.562+0000] {processor.py:161} INFO - Started process (PID=1497) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:57:54.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:57:54.566+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:54.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:57:56.050+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:57:56.138+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:56.137+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:57:56.191+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:57:56.191+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:57:56.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.689 seconds
+[2024-08-16T15:58:26.533+0000] {processor.py:161} INFO - Started process (PID=1509) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:58:26.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:58:26.538+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:26.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:58:27.626+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:58:27.666+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:27.665+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:58:27.691+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:27.690+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:58:27.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.192 seconds
+[2024-08-16T15:58:57.820+0000] {processor.py:161} INFO - Started process (PID=1521) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:58:57.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:58:57.825+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:57.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:58:58.957+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:58:59.004+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:59.003+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:58:59.049+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:58:59.048+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:58:59.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.274 seconds
+[2024-08-16T15:59:29.498+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/stream.py
+[2024-08-16T15:59:29.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stream.py for tasks to queue
+[2024-08-16T15:59:29.512+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:59:29.505+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/stream.py
+[2024-08-16T15:59:30.622+0000] {processor.py:840} INFO - DAG(s) 'streaming_data' retrieved from /opt/airflow/dags/stream.py
+[2024-08-16T15:59:30.665+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:59:30.664+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-16T15:59:30.712+0000] {logging_mixin.py:188} INFO - [2024-08-16T15:59:30.712+0000] {dag.py:3947} INFO - Setting next_dagrun for streaming_data to None, run_after=None
+[2024-08-16T15:59:30.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stream.py took 1.271 seconds
