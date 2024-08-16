@@ -1,0 +1,90 @@
+[2024-08-16T15:10:17.868+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-08-16T15:10:17.947+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-16T15:10:14.597465+00:00 [queued]>
+[2024-08-16T15:10:17.967+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: streaming_data_today.get_data manual__2024-08-16T15:10:14.597465+00:00 [queued]>
+[2024-08-16T15:10:17.968+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-08-16T15:10:17.996+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): get_data> on 2024-08-16 15:10:14.597465+00:00
+[2024-08-16T15:10:18.010+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'streaming_data_today', 'get_data', 'manual__2024-08-16T15:10:14.597465+00:00', '--job-id', '261', '--raw', '--subdir', 'DAGS_FOLDER/stream_today.py', '--cfg-path', '/tmp/tmp6fbh4zcf']
+[2024-08-16T15:10:18.011+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=317) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-08-16T15:10:18.015+0000] {standard_task_runner.py:91} INFO - Job 261: Subtask get_data
+[2024-08-16T15:10:18.015+0000] {standard_task_runner.py:64} INFO - Started process 322 to run task
+[2024-08-16T15:10:18.048+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2024-08-16T15:10:18.135+0000] {task_command.py:426} INFO - Running <TaskInstance: streaming_data_today.get_data manual__2024-08-16T15:10:14.597465+00:00 [running]> on host 44da6da64016
+[2024-08-16T15:10:18.350+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='streaming_data_today' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-08-16T15:10:14.597465+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-16T15:10:14.597465+00:00'
+[2024-08-16T15:10:18.354+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-08-16T15:10:19.033+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.162+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.295+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.425+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.572+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.701+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.837+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:19.976+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:20.105+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:20.237+0000] {logging_mixin.py:188} WARNING - [*********************100%%**********************]  1 of 1 completed
+[2024-08-16T15:10:20.468+0000] {logging_mixin.py:188} INFO - [               Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  37500.0  38300.0  37150.0  37850.0    37850.0  17798730
+2024-08-16  38200.0  38700.0  38000.0  38400.0    38400.0  21534900,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  41000.0  41150.0  40800.0  40800.0    40800.0  1213500
+2024-08-16  40900.0  41600.0  40900.0  41150.0    41150.0  7257000,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  74000.0  74600.0  73700.0  73800.0    73800.0  4255830
+2024-08-16  74000.0  74100.0  73200.0  73800.0    73800.0  7392900,                Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  25450.0  25450.0  25200.0  25200.0    25200.0  17264450
+2024-08-16  25200.0  25700.0  25000.0  25600.0    25600.0  36501900,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  76700.0  76700.0  75000.0  75000.0    75000.0  3474953
+2024-08-16  75400.0  77500.0  75200.0  77300.0    77300.0  8146700,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  88000.0  88800.0  87600.0  87600.0    87600.0   921018
+2024-08-16  88000.0  88900.0  88000.0  88100.0    88100.0  1420400,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  47050.0  47450.0  46650.0  46650.0    46650.0  1004349
+2024-08-16  46750.0  48050.0  46750.0  47500.0    47500.0  2382200,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  31800.0  31950.0  31450.0  31850.0    31850.0  5235800
+2024-08-16  31850.0  32500.0  31800.0  32500.0    32500.0  7939100,                 Open      High       Low     Close  Adj Close   Volume
+Date                                                                  
+2024-08-15  129100.0  129500.0  128200.0  128700.0   128700.0  2305600
+2024-08-16  129100.0  131000.0  129100.0  130600.0   130600.0  5486600,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  82000.0  82700.0  81200.0  81200.0    81200.0  1248035
+2024-08-16  81600.0  83100.0  81000.0  82600.0    82600.0  2333100]
+[2024-08-16T15:10:20.591+0000] {python.py:237} INFO - Done. Returned value was: [               Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  37500.0  38300.0  37150.0  37850.0    37850.0  17798730
+2024-08-16  38200.0  38700.0  38000.0  38400.0    38400.0  21534900,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  41000.0  41150.0  40800.0  40800.0    40800.0  1213500
+2024-08-16  40900.0  41600.0  40900.0  41150.0    41150.0  7257000,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  74000.0  74600.0  73700.0  73800.0    73800.0  4255830
+2024-08-16  74000.0  74100.0  73200.0  73800.0    73800.0  7392900,                Open     High      Low    Close  Adj Close    Volume
+Date                                                               
+2024-08-15  25450.0  25450.0  25200.0  25200.0    25200.0  17264450
+2024-08-16  25200.0  25700.0  25000.0  25600.0    25600.0  36501900,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  76700.0  76700.0  75000.0  75000.0    75000.0  3474953
+2024-08-16  75400.0  77500.0  75200.0  77300.0    77300.0  8146700,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  88000.0  88800.0  87600.0  87600.0    87600.0   921018
+2024-08-16  88000.0  88900.0  88000.0  88100.0    88100.0  1420400,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  47050.0  47450.0  46650.0  46650.0    46650.0  1004349
+2024-08-16  46750.0  48050.0  46750.0  47500.0    47500.0  2382200,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  31800.0  31950.0  31450.0  31850.0    31850.0  5235800
+2024-08-16  31850.0  32500.0  31800.0  32500.0    32500.0  7939100,                 Open      High       Low     Close  Adj Close   Volume
+Date                                                                  
+2024-08-15  129100.0  129500.0  128200.0  128700.0   128700.0  2305600
+2024-08-16  129100.0  131000.0  129100.0  130600.0   130600.0  5486600,                Open     High      Low    Close  Adj Close   Volume
+Date                                                              
+2024-08-15  82000.0  82700.0  81200.0  81200.0    81200.0  1248035
+2024-08-16  81600.0  83100.0  81000.0  82600.0    82600.0  2333100]
+[2024-08-16T15:10:20.709+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-08-16T15:10:20.798+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=streaming_data_today, task_id=get_data, run_id=manual__2024-08-16T15:10:14.597465+00:00, execution_date=20240816T151014, start_date=20240816T151017, end_date=20240816T151020
+[2024-08-16T15:10:20.862+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-08-16T15:10:20.912+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-08-16T15:10:20.916+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

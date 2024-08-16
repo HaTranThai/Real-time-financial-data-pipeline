@@ -10,7 +10,7 @@ session.execute("USE stock_spark_streams")
 
 today = datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-start_date = '2024-07-01T00:00:00Z'
+start_date = '2020-01-01T00:00:00Z'
 
 symbols = [
     'VHM.VN', 'VIC.VN', 'VNM.VN', 'HPG.VN', 'MSN.VN', 'VCB.VN', 'BID.VN', 'CTG.VN', 'FPT.VN', 'GAS.VN'
@@ -33,6 +33,7 @@ for symbol in symbols:
     WHERE symbol = '{symbol}'
     AND timestamp >= '{start_date}'
     AND timestamp <= '{today}'
+    ALLOW FILTERING
     """
     rows = session.execute(query)
     df = pd.DataFrame(rows)

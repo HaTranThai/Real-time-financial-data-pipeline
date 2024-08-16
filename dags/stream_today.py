@@ -8,8 +8,6 @@ from confluent_kafka import Producer
 # Configuration parameters for Kafka
 KAFKA_BOOTSTRAP_SERVERS = ['broker:29092']
 KAFKA_TOPIC = 'data'
-PAUSE_INTERVAL = 10
-STREAMING_DURATION = 120
 
 symbols = [
     'VHM.VN',  # Vinhomes JSC
@@ -51,8 +49,10 @@ def get_data(ti):
     data = []
     today = datetime.today()
     yesterday = today - timedelta(days=1)
+    tomorrow = today + timedelta(days=1)
     for symbol in symbols:
-        data.append(yf.download(symbol, start=yesterday, end=today, interval='1d'))
+        data.append(yf.download(symbol, start=yesterday, end=tomorrow, interval='1d'))
+    print(data)
     ti.xcom_push(key='data', value=data)
     return data
 

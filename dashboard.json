@@ -136,7 +136,7 @@
           "rawQuery": false,
           "refId": "A",
           "table": "data",
-          "target": "SELECT timestamp, close FROM stock_spark_stream.data;\n"
+          "target": "SELECT * FROM stock_spark_streams.data WHERE symbol='FPT.VN';\n"
         }
       ],
       "title": "đường MA",

@@ -22,7 +22,7 @@ def create_table(session):
             low DOUBLE,
             close DOUBLE,
             volume DOUBLE,
-            PRIMARY KEY ((timestamp), symbol)
+            PRIMARY KEY ((symbol), timestamp)
         );
     """)
     print("Table created successfully!")
@@ -116,6 +116,19 @@ def create_selection_df_from_kafka(spark_df):
 
     return sel
 
+def delete_checkpoint(checkpoint_dir):
+    import shutil
+    import os
+
+    if os.path.exists(checkpoint_dir):
+        try:
+            shutil.rmtree(checkpoint_dir)
+            print(f"Checkpoint directory {checkpoint_dir} deleted successfully.")
+        except Exception as e:
+            print(f"Could not delete checkpoint directory {checkpoint_dir} due to: {e}")
+    else:
+        print(f"Checkpoint directory {checkpoint_dir} does not exist.")
+
 
 if __name__ == "__main__":
     # create spark connection
@@ -133,9 +146,12 @@ if __name__ == "__main__":
 
             logging.info("Streaming is being started...")
 
+            checkpoint_dir = 'path/to/checkpoint/dir'
+            delete_checkpoint(checkpoint_dir)
+
             streaming_query = (selection_df.writeStream
                                .format("org.apache.spark.sql.cassandra")
-                               .option('checkpointLocation', '/tmp/checkpoint')
+                               .option('checkpointLocation', checkpoint_dir)
                                .option('keyspace', 'stock_spark_streams')
                                .option('table', 'data')
                                .start())
