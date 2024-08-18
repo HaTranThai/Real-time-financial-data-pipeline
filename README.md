@@ -25,6 +25,7 @@
    python sma.py
    ```
  ### Visualization with Grafana
+![System Architecture](https://github.com/HaTranThai/Real-time-financial-data-pipeline/blob/main/image/image.png)
 
 
  
